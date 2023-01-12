@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first game</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="/game.js"></script>
 </head>
 <body>
 <section class="container flex flex-col p- m-3 mx-auto bg-slate-300 rounded-3xl max-w-3xl">
@@ -17,25 +18,24 @@
         <div class="container flex flex-col">
             <h2 class="p-3 font-semibold text-2xl mx-auto text-gray-700"> 0 </h2>
             <p class="font-semibold text-2xl mx-auto text-emerald-700">Brilliant Human Being</p>
-            <img class="h-36 w-36 mx-auto" src="/images/main.png" alt="">
+            <img id="userSelection" class="h-36 w-36 mx-auto" src="/images/main.png" alt="">
         </div>
         <!--Computer Part-->
         <div class="container flex flex-col">
             <h2 class="p-3 font-semibold text-2xl mx-auto text-gray-700"> 0 </h2>
             <p class="font-semibold text-2xl mx-auto text-emerald-700">Just a computer</p>
-            <img class="h-36 w-36 mx-auto" src="/images/main.png" alt="">
+            <img id="computerSelection" class="h-36 w-36 mx-auto" src="/images/main.png" alt="">
         </div>
     </div>
     <!--Section with user input-->
     <h1 class="font-semibold text-2xl mx-auto text-fuchsia-700">Chose your action</h1>
         <!--Container with buttons-->
         <div class="container flex flex-row justify-between">
-            <img class="h-24 w-24 rounded-full m-3" src="/images/Rock.png" alt=""></a>
-            <img class="h-24 w-24 rounded-full m-3" src="/images/Paper.png" alt=""></a>
-            <img class="h-24 w-24 rounded-full m-3" src="/images/Scissors.png" alt=""></a>
-            <img class="h-24 w-24 rounded-full m-3" src="/images/Lizard.png" alt=""></a>
-            <img class="h-24 w-24 rounded-full m-3" src="/images/Spock.png" alt=""></a>
-
+            <img id="rock" class="h-24 w-24 rounded-full m-3" src="/images/Rock.png" alt="">
+            <img id="paper" class="h-24 w-24 rounded-full m-3" src="/images/Paper.png" alt="">
+            <img id="scissors" class="h-24 w-24 rounded-full m-3" src="/images/Scissors.png" alt="">
+            <img id="lizard" class="h-24 w-24 rounded-full m-3" src="/images/Lizard.png" alt="">
+            <img id="spock" class="h-24 w-24 rounded-full m-3" src="/images/Spock.png" alt="">
         </div>
     </div>
 
